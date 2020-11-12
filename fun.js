@@ -41,6 +41,7 @@ calcs.forEach(btn => {
         const period = document.getElementById('period');
         if (targ.innerText === "C") {
             period.disabled = false;
+            calcWin.innerText = 0;
         }
         if (targ.innerText === "ac") {
             calcWin.innerText = 0;
