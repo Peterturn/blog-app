@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- Titre -->
+    <!-- image html ou CSS -->
+    <nav class="menu">
+        <h1>Mon Blog de ...</h1>
+        <ul id="nav-menu">
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/fakeSignin.html">Connexion de l'utilisateur</a></li>
+          <li><a href="articles.html">Articles</a></li>
+        </ul>
+      </nav>
+  </header>
+    <form method="post">
+      <ul>
+        <label for="checkbox">Une case à cocher, sentir le pouvoir.</label>
+        <input type="checkbox" id="checkbox" />
+        <br />
+        <label for="useremail">Email</label>
+        <input type="email" id="useremail" />
+        <br />
+        <label for="feedback">Nom</label>
+        <input type="text" name="nom" id="nom" />
+        <br />
+        <label for="feedback">Qu'en pensez-vous ?</label>
+        <input placeholder="c'était incroyable" type="textarea" name="opinion" id="feedback" />
+        <br />
+
+        <label for="radio">Clair / Foncé:</label>
+        <input type="radio" name="colorScheme" checked value="light">Clair
+        <input type="radio" name="colorScheme" value="dark"> Foncé
+        
+        <br />
+
+        <label for="birthday">Anniversaire</label>
+        <input type="date" name="anniversaire" id="birthday" />
+      </ul>
+      <input type="button" value="ok">
+    </form>
+  </body>
+</html>

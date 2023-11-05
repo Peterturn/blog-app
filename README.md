@@ -1,3 +1,12 @@
-# calculator-App
-Introduction à RGAA et CSS
-Introduction to RGAA and CSS
+# Blog-App
+## Projet fil rouge: création d'un blog
+
+## Inputs
+selects
+text
+radio
+check
+
+
+## hacks 
+https://code.visualstudio.com/docs/editor/emmet

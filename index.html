@@ -1,98 +1,52 @@
 <!-- Introduction à RGAA et CSS -->
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun Calculater</title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800" rel="stylesheet">
-    <!-- créer un lien vers le fichier CSS et déplacer tous les styles actuels dans le fichier CSS  -->
-    
-    <style>
-        /* turn all li emlements into buttons */
-        ul {
-            /* display: flex; */
-        }
-        li {
-            /* list-style-type: none; */
-            /* padding-right: 12px; */
-            /* padding-bottom: 20px; */
-            /* margin-right: 12px; */
-            /* margin-bottom: 12px; */
-            /* width: 25PX; */
-            /* height: 50px; */
-            /* background-color: #f2f2f2; */
-            /* border: 1px solid #ccc; */
-            /* text-align: center; */
-            /* line-height: 50px; */
-            /* font-size: 1.5em; */
-            /* cursor: pointer; */
-        }
-        /* DANS LE CODAGE, L'ORDRE EST ROI */
-
-        /* ul {
-            padding: 0;
-            margin: 0;
-            display: inline-block;
-        } */
-    </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Blog de ...</title>
   </head>
   <body>
+    
+      <!-- RGAA reg. -->
+      <div class="alert alert-secondary" hidden="true" role="alert">
+        Une simple alerte - vérifiez-la !
+      </div>
+      <header>
+          <!-- Titre -->
+        <!-- image html ou CSS -->
+        <nav class="menu">
+            <h1>Mon Blog de ...</h1>
+            <ul id="nav-menu">
+              <li><a href="/">Accueil</a></li>
+              <li><a href="/fakeSignin.html">Connexion de l'utilisateur</a></li>
+              <li><a href="/articles.html">Articles</a></li>
+            </ul>
+          </nav>
+      </header>
+      <main>
+        <div>
+            <h2>Les Article</h2>
+            <p>Les articles sont classés par ordre chronologique</p>
+        </div>
+        <section>
+          <h3>Titre de l'article</h3>
+          <p>Contenu de l'article</p>
+        </section>
+        <section>
+          <h3>Titre de l'article</h3>
+          <p>Contenu de l'article</p>
+        </section>
+        <section>
+          <h3>Titre de l'article</h3>
+          <p>Contenu de l'article</p>
+        </section>
+      </main>
+      <footer>
+        <p>© 2021 - Mon Blog de ...</p>
+      </footer>
 
-    <div class="div-wrap">
-        <!-- RGAA reg. -->
-        <div class="alert alert-secondary" hidden="true" role="alert">
-            Une simple alerte - vérifiez-la !
-          </div>
-        <h1 class="title">My Calculator</h1>
-        
-        <Div class="screen"> 
-            <h3 id=calc-screen>0</h3>
-        </Div>
-
-        <div class="top-num row">
-            <ul>
-                <!-- RGAA reg. -->
-                <li class="nums numjs" role="button">1</li>
-                <li class="nums numjs">2</li>
-                <li class="nums numjs">3</li>
-                <li data-calc-symbol="plus-sym" class="nums calcs">+</li>
-            </ul>
-        </div>
-        <div class="mid-num row">
-            <ul>
-                <li class="nums numjs">4</li>
-                <li class="nums numjs">5</li>
-                <li class="nums numjs">6</li>
-                <li data-calc-symbol="minu-sym" class="nums calcs">-</li>
-            </ul>
-        </div>
-        <div class="bottom-num row">
-            <ul>
-                <li class="nums numjs">7</li>
-                <li class="nums numjs">8</li>
-                <li class="nums numjs">9</li>
-                <li data-calc-symbol="divi-sym" class="nums calcs">/</li>
-            </ul>
-        </div>
-        <div class="top-sym row">
-            <ul>
-                <li data-calc-symbol='period' class="nums numjs">.</li>
-                <li class="nums numjs">0</li>
-                <li data-calc-symbol="clear-sym" class="nums calcs">C</li>
-                <li data-calc-symbol="mult-sym" class="nums calcs">X</li>           
-            </ul>
-        </div>
-        <div class="bottom-sym row">
-            <ul>
-                <li data-calc-symbol="equal-sym" class="nums calcs">=</li>
-                <li data-calc-symbol="ac-sym" class="nums calcs">ac</li>      
-            </ul>
-        </div>
-     
-
-    </div>
     <!-- Créez un fichier javascript et créez un lien vers ce fichier ici. -->
   </body>
 </html>
